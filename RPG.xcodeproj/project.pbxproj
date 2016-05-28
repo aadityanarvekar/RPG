@@ -12,6 +12,12 @@
 		0853350B1CF5D6EA005D166D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 085335091CF5D6EA005D166D /* Main.storyboard */; };
 		0853350D1CF5D6EA005D166D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0853350C1CF5D6EA005D166D /* Assets.xcassets */; };
 		085335101CF5D6EA005D166D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0853350E1CF5D6EA005D166D /* LaunchScreen.storyboard */; };
+		085335181CF5D7AB005D166D /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085335171CF5D7AB005D166D /* Character.swift */; };
+		0853351A1CF5D8C3005D166D /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085335191CF5D8C3005D166D /* Player.swift */; };
+		0853351C1CF67489005D166D /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0853351B1CF67489005D166D /* Enemy.swift */; };
+		0853351E1CF6775B005D166D /* Kimara.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0853351D1CF6775B005D166D /* Kimara.swift */; };
+		085335221CF67AD5005D166D /* DevilWizard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085335211CF67AD5005D166D /* DevilWizard.swift */; };
+		085335241CF7D886005D166D /* DroidSerif-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 085335231CF7D886005D166D /* DroidSerif-Italic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		0853350C1CF5D6EA005D166D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0853350F1CF5D6EA005D166D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		085335111CF5D6EA005D166D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		085335171CF5D7AB005D166D /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		085335191CF5D8C3005D166D /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		0853351B1CF67489005D166D /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		0853351D1CF6775B005D166D /* Kimara.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kimara.swift; sourceTree = "<group>"; };
+		085335211CF67AD5005D166D /* DevilWizard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevilWizard.swift; sourceTree = "<group>"; };
+		085335231CF7D886005D166D /* DroidSerif-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DroidSerif-Italic.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,12 @@
 				0853350C1CF5D6EA005D166D /* Assets.xcassets */,
 				0853350E1CF5D6EA005D166D /* LaunchScreen.storyboard */,
 				085335111CF5D6EA005D166D /* Info.plist */,
+				085335171CF5D7AB005D166D /* Character.swift */,
+				085335191CF5D8C3005D166D /* Player.swift */,
+				0853351B1CF67489005D166D /* Enemy.swift */,
+				0853351D1CF6775B005D166D /* Kimara.swift */,
+				085335211CF67AD5005D166D /* DevilWizard.swift */,
+				085335231CF7D886005D166D /* DroidSerif-Italic.ttf */,
 			);
 			path = RPG;
 			sourceTree = "<group>";
@@ -125,6 +143,7 @@
 				085335101CF5D6EA005D166D /* LaunchScreen.storyboard in Resources */,
 				0853350D1CF5D6EA005D166D /* Assets.xcassets in Resources */,
 				0853350B1CF5D6EA005D166D /* Main.storyboard in Resources */,
+				085335241CF7D886005D166D /* DroidSerif-Italic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +154,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0853351A1CF5D8C3005D166D /* Player.swift in Sources */,
+				0853351C1CF67489005D166D /* Enemy.swift in Sources */,
+				085335221CF67AD5005D166D /* DevilWizard.swift in Sources */,
+				0853351E1CF6775B005D166D /* Kimara.swift in Sources */,
+				085335181CF5D7AB005D166D /* Character.swift in Sources */,
 				085335081CF5D6EA005D166D /* ViewController.swift in Sources */,
 				085335061CF5D6EA005D166D /* AppDelegate.swift in Sources */,
 			);
@@ -288,6 +312,7 @@
 				085335161CF5D6EA005D166D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
